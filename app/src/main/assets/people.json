@@ -1,0 +1,27 @@
+{
+  "people": [
+    // sources: http://scoobydoo.wikia.com/
+    //          https://en.wikipedia.org/wiki/Scooby-Doo,_Where_Are_You!
+    {
+      "image": "scooby",
+      "name": "Scoobert \"Scooby\" Doo",
+      "bio": "The Great Dane mascot of Mystery Inc., and pet and best friend of Shaggy Rogers.",
+      "l0": "1969/09/13",
+      "l1": null
+    },
+    {
+      "image": "shaggy",
+      "name": "Norville \"Shaggy\" Rogers",
+      "bio": "A member of Mystery Inc., and the owner and best friend of their team's mascot: Scooby-Doo, a talking Great Dane.",
+      "l0": "1969/09/13",
+      "l1": null
+    },
+    {
+      "image": "freddie",
+      "name": "Fred \"Freddie/Freddy\" Jones",
+      "bio": "The leader of the Mystery Inc. gang, and (more often than not) the driver of their van: The Mystery Machine.",
+      "l0": "1969/09/13",
+      "l1": null
+    }
+  ]
+}
