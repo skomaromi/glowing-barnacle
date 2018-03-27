@@ -16,8 +16,11 @@ public class InspiringPerson {
     private Drawable mImage;
     private String mName, mBio;
     private Date mL0, mL1;
+    private ArrayList<String> mQuotes;
 
-    InspiringPerson() {}
+    private InspiringPerson() {
+        mQuotes = new ArrayList<>();
+    }
 
     public Drawable getmImage() {
         return mImage;
@@ -37,12 +40,12 @@ public class InspiringPerson {
     public void setmBio(String mBio) {
         this.mBio = mBio;
     }
-
+    public ArrayList<String> getmQuotes() { return mQuotes; }
     public String getmLifespan() {
-        SimpleDateFormat spf = new SimpleDateFormat("yyyy/MM/DD");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 
-        String l1 = mL1 == null ? "..." : spf.format(mL1);
-        return spf.format(mL0) + " - " + l1;
+        String l1 = mL1 == null ? "..." : sdf.format(mL1);
+        return sdf.format(mL0) + " - " + l1;
     }
 
     public static ArrayList<InspiringPerson> getArrayListFromFile(String file, Context context) {
@@ -56,7 +59,7 @@ public class InspiringPerson {
             for (int i = 0; i < peopleJSONArray.length(); i++) {
                 InspiringPerson ip = new InspiringPerson();
                 JSONObject jsonPerson = peopleJSONArray.getJSONObject(i);
-                SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/DD");
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 
                 // decode string to drawable
                 String image = jsonPerson.getString("image");
@@ -79,6 +82,13 @@ public class InspiringPerson {
 
                 ip.mL0 = l0 == null ? null : sdf.parse(l0);
                 ip.mL1 = l1 == null ? null : sdf.parse(l1);
+
+                // decoding quotes
+                JSONArray jaQuotes = jsonPerson.getJSONArray("quotes");
+                for (int j = 0; j < jaQuotes.length(); j++) {
+                    String q = jaQuotes.getString(j);
+                    ip.mQuotes.add(q);
+                }
 
                 personArrayList.add(ip);
             }

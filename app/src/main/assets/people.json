@@ -1,27 +1,48 @@
 {
   "people": [
-    // sources: http://scoobydoo.wikia.com/
-    //          https://en.wikipedia.org/wiki/Scooby-Doo,_Where_Are_You!
     {
-      "image": "scooby",
-      "name": "Scoobert \"Scooby\" Doo",
-      "bio": "The Great Dane mascot of Mystery Inc., and pet and best friend of Shaggy Rogers.",
-      "l0": "1969/09/13",
-      "l1": null
+      "image": "rms",
+      "name": "Richard Matthew Stallman",
+      "bio": "An American free software movement activist and programmer. Launched the GNU Project, founded the Free Software Foundation, developed the GNU Compiler Collection and GNU Emacs, and wrote the GNU General Public License. He pioneered the concept of copyleft, which uses the principles of copyright law to preserve the right to use, modify and distribute free software. As of 2016, he has received fifteen honorary doctorates and professorships.",
+      "l0": "1953/03/16",
+      "l1": null,
+      "quotes": [
+        "I consider that the golden rule requires that if I like a program I must share it with other people who like it.",
+        "It is unfortunate that he still has nonfree software in his computer. He needs to defenestrate it (which means, either throw Windows out of the computer or throw the computer out of the window).",
+        "Freedom means not having a master. And in the area of computing, freedom means not using proprietary software."
+      ]
     },
     {
-      "image": "shaggy",
-      "name": "Norville \"Shaggy\" Rogers",
-      "bio": "A member of Mystery Inc., and the owner and best friend of their team's mascot: Scooby-Doo, a talking Great Dane.",
-      "l0": "1969/09/13",
-      "l1": null
+      "image": "torvalds",
+      "name": "Linus Benedict Torvalds",
+      "bio": "A Finnish-American software engineer who is the creator, and for a long time, principal developer of the Linux kernel, which became the kernel for operating systems such as the Linux operating systems, Android, and Chrome OS. He also created the distributed revision control system Git and the diving logging and planning software Subsurface. He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland \"in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel\".",
+      "l0": "1969/12/28",
+      "l1": null,
+      "quotes": [
+        "Talk is cheap. Show me the code.",
+        "In short: just say NO TO DRUGS, and maybe you won't end up like the Hurd people.",
+        "Most days I wake up thinking I'm the luckiest bastard alive.",
+        "My name is Linus Torvalds and I am your god.",
+        "A lot of people still like Solaris, but I'm in active competition with them, and so I hope they die.",
+        "EFI is this other Intel brain-damage (the first one being ACPI).",
+        "Dijkstra probably hates me.",
+        "I'm an egotistical bastard, and I name all my projects after myself. First Linux, now git.",
+        "WE DO NOT BREAK USERSPACE!"
+      ]
     },
     {
-      "image": "freddie",
-      "name": "Fred \"Freddie/Freddy\" Jones",
-      "bio": "The leader of the Mystery Inc. gang, and (more often than not) the driver of their van: The Mystery Machine.",
-      "l0": "1969/09/13",
-      "l1": null
+      "image": "carmack",
+      "name": "John D. Carmack",
+      "bio": "An American computer programmer, engineer, and businessman. He co-founded id Software. Carmack was the lead programmer of the id video games Commander Keen, Wolfenstein 3D, Doom, Quake, Rage and their sequels. Carmack is best known for his innovations in 3D graphics, such as his Carmack's Reverse algorithm for shadow volumes. In August 2013, Carmack took the position of CTO at Oculus VR.",
+      "l0": "1970/08/20",
+      "l1": null,
+      "quotes": [
+        "Note to self: Pasty-skinned programmers ought not stand in the Mojave desert for multiple hours.",
+        "The speed of light sucks.",
+        "It's nice to have a game that sells a million copies.",
+        "It's done, when it's done.",
+        "It's a good thing Doom 3 is selling very well..."
+      ]
     }
   ]
 }
