@@ -28,8 +28,8 @@ To achieve this, information about these three persons were stored in a JSON fil
 
 Samsung Galaxy Note 3 (SM-N900) running Lollipop (5.0)
 
-![Main application screen](_docs/note3_lp_mainscreen.png | height=500)
-![Main application screen, showing a quote by Torvalds](_docs/note3_lp_quotetoast.png | height=500)
+<img src="_docs/note3_lp_mainscreen.png" height="500px" title="Main application screen"/>
+<img src="_docs/note3_lp_quotetoast.png" height="500px" title="Main application screen, showing a quote by Torvalds"/>
 
 ### Bottom line
-Don't use comments in JSON files (as I did in 584971bb9cd0991415bb848a6a434d854ce47074). Java's parser won't bite you for that, but it isn't standard syntax.
+Java's parser did not bite me for that, but it turns out [comments are not defined in the JSON format](https://stackoverflow.com/questions/244777/can-comments-be-used-in-json). Found it out after committing [this](https://github.com/skomaromi/inspiring-people/commit/584971bb9cd0991415bb848a6a434d854ce47074). Ugh.
