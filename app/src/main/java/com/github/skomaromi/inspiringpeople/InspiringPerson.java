@@ -28,19 +28,30 @@ public class InspiringPerson {
     public void setmImage(Drawable mImage) {
         this.mImage = mImage;
     }
+
     public String getmName() {
         return mName;
     }
     public void setmName(String mName) {
         this.mName = mName;
     }
+
     public String getmBio() {
         return mBio;
     }
     public void setmBio(String mBio) {
         this.mBio = mBio;
     }
+
+    public Date getmL0() { return mL0; }
+    public void setmL0(Date mL0) { this.mL0 = mL0; }
+
+    public Date getmL1() { return mL1; }
+    public void setmL1(Date mL1) { this.mL1 = mL1; }
+
     public ArrayList<String> getmQuotes() { return mQuotes; }
+    public void setmQuotes(ArrayList<String> mQuotes) { this.mQuotes = mQuotes; }
+
     public String getmLifespan() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 
