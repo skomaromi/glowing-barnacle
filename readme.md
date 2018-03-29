@@ -22,15 +22,14 @@ To achieve this, information about these three persons were stored in a JSON fil
 * https://stackoverflow.com/questions/12781273/what-are-the-date-formats-available-in-simpledateformat-class
 * https://stackoverflow.com/questions/21856260/how-can-i-convert-string-to-drawable
 * https://stackoverflow.com/questions/244777/can-comments-be-used-in-json
-
-Give a link to anything you used and give proper credit.
+* https://gist.github.com/uupaa/f77d2bcf4dc7a294d109 [scaling images in GFM]
 
 ### Screenshots
 
 Samsung Galaxy Note 3 (SM-N900) running Lollipop (5.0)
 
-![Main application screen](_docs/note3_lp_mainscreen.png)
-![Main application screen, showing a quote by Torvalds](_docs/note3_lp_quotetoast.png)
+![Main application screen](_docs/note3_lp_mainscreen.png | height=500)
+![Main application screen, showing a quote by Torvalds](_docs/note3_lp_quotetoast.png | height=500)
 
 ### Bottom line
-Don't [use comments in JSON files](584971bb9cd0991415bb848a6a434d854ce47074). Java's parser won't bite you for that, but it isn't standard syntax.
+Don't use comments in JSON files (as I did in 584971bb9cd0991415bb848a6a434d854ce47074). Java's parser won't bite you for that, but it isn't standard syntax.
